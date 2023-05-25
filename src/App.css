@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.table-cell {
+  text-align: left; /* Adjust alignment as needed */
+}
+.fixed-width-table {
+  width: 70%;
+  table-layout: fixed;
+}
+.first-column {
+  width: 55%; /* Adjust the width value as needed */
+}

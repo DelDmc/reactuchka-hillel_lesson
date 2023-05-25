@@ -7,8 +7,7 @@ import {useParams} from 'react-router-dom';
 // import {AddReactionRounded} from "@mui/icons-material";
 
 function Details() {
-    const [product
-        , setProduct] = useState({});
+    const [product, setProduct] = useState({});
     let {id} = useParams();
     useEffect(() => {
         fetch(`https://fakestoreapi.com/products/${id}`)
@@ -23,9 +22,8 @@ function Details() {
        <h1>
            {product.title}
        </h1>
-            <img src={product.image}/>
-
-            Lorem ipsum dolor sit amet. {id}
+        <img src={product.image}/>
+        Lorem ipsum dolor sit amet. {id}
         </div>)
 }
 
